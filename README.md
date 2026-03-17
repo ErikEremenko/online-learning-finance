@@ -11,8 +11,15 @@ approaches across three market regimes (2008 crisis, 2015–18, COVID-19).
 | Model | Sharpe (2008) | Sharpe (2015-18) |
 |-------|--------------|-----------------|
 | Online SNARIMAX | **0.89** | 0.49 |
-| Batch ARIMA | -0.12 | 0.39 |
+| Batch ARIMA | -0.06 | 0.39 |
 | Ternary Classifier | -0.50 | 0.04
+
+## Results
+
+![2008 Crisis - Model Comparison](comparison_next_step_crisis.png)
+
+*Online SNARIMAX achieves Sharpe 0.89 during the 2008 crisis,
+significantly outperforming Batch ARIMA (-0.06) and the Ternary Classifier (-0.50).*
 
 ## Paper
 [OL_CAML_TUM_Eremenko_Muller.pdf](./OL_CAML_TUM_Eremenko_Muller.pdf)
